@@ -13,6 +13,7 @@ public class Main {
         form.setSize(380, 280);
         form.setLayout(null);
         form.setLocation(300,200);
+        form.getContentPane().setBackground(Color.decode("#EEEEEE"));
 
         form.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
         form.addWindowListener(new WindowAdapter() {
